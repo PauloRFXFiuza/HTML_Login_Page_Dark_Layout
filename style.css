@@ -88,6 +88,8 @@ body{
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
 }
 
 /*
@@ -128,6 +130,8 @@ neste contexto, os limites das divisórias (div) dos inputs coincidirão com os 
 margin-bottom; margem da parte de baixo do elemento
 
 text-transform: uppercase; transforma o texto para todas as letras maiúsculas
+
+letter-spacing: 4px; significa o quanto cada letra do texto será espaçada entre si
 
 vw= viewport width
 vh= viewport height
