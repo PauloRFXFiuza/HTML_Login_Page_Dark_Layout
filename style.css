@@ -93,6 +93,7 @@ body{
     color: #2b134b;
     background: #00ff88;
     cursor: pointer;
+    box-shadow: 0 10px 40px -12px #00ff8052;
 }
 
 /*
@@ -106,10 +107,11 @@ flex-direction: column; organizar em forma de coluna
 
 width:60%; neste caso .card-login faz parte de .right-login, ou seja o width será 60% de 50vw
 
-box-shadow: x y z w; sombreamento do elemento- 
+box-shadow: x y z t w; sombreamento do elemento- 
 x= deslocamento da sombra direita ou esquerda; 
 y= deslocamento da sombra cima ou baixo;  
 z= blur (desfoque), quanto mais px, mais desfoque;
+t= espalahamento (spread) da sombra;
 w= cor da sombra.
 
 com o flex-direction: column- justify-content torna-se o eixo y e o align-items torna-se o eixo x;
