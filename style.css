@@ -71,7 +71,7 @@ body{
     box-sizing: border-box;
 }
 
-.textfield > input{
+.textfield > label{
     color: #f0ffffde;
     margin-bottom: 10px; 
 }
