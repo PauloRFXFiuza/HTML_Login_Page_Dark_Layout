@@ -1,3 +1,33 @@
 body{
-    margin:0;
+    margin: 0;
 }
+.main-login{
+    width: 100vw; 
+    height: 100vh;
+}
+
+
+
+
+
+
+/*
+vw= viewport width
+vh= viewport height
+As unidades vw (viewport width) e vh (viewport height) são medidas relativas usadas em CSS para dimensionar 
+elementos com base no tamanho da área visível do navegador, conhecida como viewport.
+Detalhamento:
+vw (viewport width):
+Representa 1% da largura da viewport.
+Por exemplo:
+Se a largura da viewport é de 1000 pixels:
+1vw = 10px
+50vw = 500px (metade da largura da viewport)
+vh (viewport height):
+
+Representa 1% da altura da viewport.
+Por exemplo:
+Se a altura da viewport é de 800 pixels:
+1vh = 8px
+100vh = 800px (altura total da viewport)
+*/
