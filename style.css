@@ -67,6 +67,7 @@ body{
     font-size: 12pt;
     box-shadow: 0 10px 40px #00000056;
     outline: none;
+    box-sizing: border-box;
 }
 
 /*
@@ -100,6 +101,9 @@ Em dispositivos com uma densidade padrão de 96dpi (pontos por polegada), 1pt eq
 
 outline: none; outline é uma linha de borda, que dá ênfase no objeto ao clicar nele; 
 ao inserir none, essa linha de borda é excluída 
+
+box-sizing: border-box; os limites dos elementos filhos coincidem com os limites dos elementos pais; 
+neste contexto, os limites das divisórias (div) dos inputs coincidirão com os limites da divisória textfield
 
 vw= viewport width
 vh= viewport height
