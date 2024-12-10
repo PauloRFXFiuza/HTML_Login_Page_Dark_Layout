@@ -139,7 +139,10 @@ body * {
     .left-login-image{
         width: 50vw;
     }
-
+    
+    .card-login{
+        width: 90%;
+    }
 }
 
 /*
