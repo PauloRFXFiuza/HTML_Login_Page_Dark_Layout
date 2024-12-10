@@ -5,6 +5,8 @@ body{
     width: 100vw; 
     height: 100vh;
     background: #201b2c;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -13,6 +15,10 @@ body{
 
 
 /*
+display: flex; organiza os elementos de lado-a-lado
+
+justify-content: center; justifica e centraliza os elementos
+
 vw= viewport width
 vh= viewport height
 As unidades vw (viewport width) e vh (viewport height) são medidas relativas usadas em CSS para dimensionar 
