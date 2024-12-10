@@ -5,6 +5,10 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 .main-login{
     width: 100vw; 
     height: 100vh;
@@ -132,6 +136,10 @@ body{
         height: auto;
     }
 
+    .left-login-image{
+        width: 50vw;
+    }
+
 }
 
 /*
@@ -182,6 +190,12 @@ quando se coloca o cursor do mouse no objeto em questão
 para pesquisar sobre fontes, utilizar o google fonts- https://fonts.google.com/
 
 para pesquisar sobre imagens , utilizar o Storyset - https://storyset.com/
+
+body * {
+    box-sizing: border-box;
+}
+
+Isso significa que para todos os elementos de body, box-sizing: border-box; - conforme explicado acima
 
 Responsividade de tela: 
 
