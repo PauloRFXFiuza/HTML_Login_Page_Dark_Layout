@@ -20,11 +20,11 @@ body{
     flex-direction: column;
 }
 
-.left-login > h1 {
+.left-login > h1{
     color: #77ffc0;
 }
 
-.right-login {
+.right-login{
     width: 50vw; 
     height: 100vh;
     display: flex;
@@ -32,6 +32,12 @@ body{
     align-items: center;
 }
 
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*
 display: flex; organiza os elementos de lado-a-lado
@@ -41,6 +47,8 @@ justify-content: center; justifica e centraliza os elementos no eixo x
 align-items: center; centraliza os elementos no eixo y
 
 flex-direction: column; organizar em forma de coluna
+
+width:60%; neste caso .card-login faz parte de .right-login, ou seja o width será 60% de 50vw
 
 vw= viewport width
 vh= viewport height
