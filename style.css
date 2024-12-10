@@ -7,6 +7,7 @@ body{
     background: #201b2c;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -17,7 +18,9 @@ body{
 /*
 display: flex; organiza os elementos de lado-a-lado
 
-justify-content: center; justifica e centraliza os elementos
+justify-content: center; justifica e centraliza os elementos no eixo x
+
+align-items: center; centraliza os elementos no eixo y
 
 vw= viewport width
 vh= viewport height
