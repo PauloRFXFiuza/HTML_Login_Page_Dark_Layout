@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .main-login{
     width: 100vw; 
     height: 100vh;
@@ -10,6 +11,14 @@ body{
     align-items: center;
 }
 
+.left-login{
+    width: 50vw; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
@@ -21,6 +30,8 @@ display: flex; organiza os elementos de lado-a-lado
 justify-content: center; justifica e centraliza os elementos no eixo x
 
 align-items: center; centraliza os elementos no eixo y
+
+flex-direction: column; organizar em forma de coluna
 
 vw= viewport width
 vh= viewport height
