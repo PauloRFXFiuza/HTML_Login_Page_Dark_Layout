@@ -105,6 +105,18 @@ body{
     box-shadow: 0 10px 40px -12px #00ff8052;
 }
 
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .card-login{
+        flex-direction: column;
+    }
+}
+
 /*
 display: flex; organiza os elementos de lado-a-lado
 
@@ -153,6 +165,36 @@ quando se coloca o cursor do mouse no objeto em questão
 para pesquisar sobre fontes, utilizar o google fonts- https://fonts.google.com/
 
 para pesquisar sobre imagens , utilizar o Storyset - https://storyset.com/
+
+Responsividade de tela: 
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+O @media only screen and (max-width: ...) é uma regra CSS usada em Media Queries, que são utilizadas para criar 
+layouts responsivos. Essa regra permite aplicar estilos específicos com base em certas condições, como o tamanho da tela do dispositivo.
+
+Descrição dos componentes:
+@media:
+
+Define o início de uma media query, especificando condições para aplicar um bloco de estilos.
+only:
+
+É opcional e usado como uma forma de filtrar dispositivos que suportam o recurso especificado.
+Hoje, pode ser omitido sem problemas, pois a maioria dos navegadores modernos entende media queries.
+screen:
+
+Define o tipo de mídia para o qual os estilos serão aplicados. No caso de screen,
+ os estilos se aplicam a telas (monitores, smartphones, tablets, etc.).
+(max-width: ...):
+
+Define a largura máxima da viewport (área visível do navegador) na qual os estilos serão aplicados.
+Por exemplo, (max-width: 600px) significa que os estilos dentro dessa media query serão aplicados apenas quando a 
+largura da viewport for de 600 pixels ou menos.
+
 
 vw= viewport width
 vh= viewport height
