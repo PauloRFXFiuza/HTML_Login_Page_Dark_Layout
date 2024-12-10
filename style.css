@@ -63,6 +63,8 @@ body{
     border-radius: 10px;
     padding: 15px;
     background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
 }
 
 /*
@@ -85,6 +87,14 @@ w= cor da sombra.
 com o flex-direction: column- justify-content torna-se o eixo y e o align-items torna-se o eixo x;
 neste contexto- align-items: flex-start; os elementos ficarão mais à esquerda possível
 neste contexto- justify-content: center; os elementos ficarão centralizados noeixo y
+
+pt-> No contexto de HTML e CSS, a unidade pt (abreviação de point) é uma unidade de medida tipográfica que 
+historicamente vem da impressão e design gráfico. Ela é usada para definir tamanhos, especialmente de textos, 
+e representa 1/72 de uma polegada.
+
+Como funciona a unidade pt?
+1pt = 1/72 polegada
+Em dispositivos com uma densidade padrão de 96dpi (pontos por polegada), 1pt equivale a aproximadamente 1,333px.
 
 vw= viewport width
 vh= viewport height
