@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .main-login{
@@ -140,6 +143,8 @@ letter-spacing: 4px; significa o quanto cada letra do texto será espaçada entr
 
 cursor: pointer; significa que muda a setinha padrão do mouse para a mão com o dedo indicado apontando,
 quando se coloca o cursor do mouse no objeto em questão
+
+para pesquisar sobre fontes, utilizar o google fonts- https://fonts.google.com/
 
 vw= viewport width
 vh= viewport height
