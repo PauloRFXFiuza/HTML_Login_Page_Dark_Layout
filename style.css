@@ -50,6 +50,13 @@ body{
     margin:0;
 }
 
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 /*
 display: flex; organiza os elementos de lado-a-lado
 
@@ -66,6 +73,10 @@ x= deslocamento da sombra direita ou esquerda;
 y= deslocamento da sombra cima ou baixo;  
 z= blur (desfoque), quanto mais px, mais desfoque;
 w= cor da sombra.
+
+com o flex-direction: column- justify-content torna-se o eixo y e o align-items torna-se o eixo x;
+neste contexto- align-items: flex-start; os elementos ficarão mais à esquerda possível
+neste contexto- justify-content: center; os elementos ficarão centralizados noeixo y
 
 vw= viewport width
 vh= viewport height
