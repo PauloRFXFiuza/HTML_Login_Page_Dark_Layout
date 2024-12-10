@@ -40,6 +40,8 @@ body{
     flex-direction: column;
     padding: 30px 35px;
     background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #00000056;
 }
 
 /*
@@ -52,6 +54,12 @@ align-items: center; centraliza os elementos no eixo y
 flex-direction: column; organizar em forma de coluna
 
 width:60%; neste caso .card-login faz parte de .right-login, ou seja o width será 60% de 50vw
+
+box-shadow: x y z w; sombreamento do elemento- 
+x= deslocamento da sombra direita ou esquerda; 
+y= deslocamento da sombra cima ou baixo;  
+z= blur (desfoque), quanto mais px, mais desfoque;
+w= cor da sombra.
 
 vw= viewport width
 vh= viewport height
