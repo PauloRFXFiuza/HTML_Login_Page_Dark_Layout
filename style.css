@@ -80,6 +80,16 @@ body{
     color: #f0ffff94;
 }
 
+.btn-login{
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+}
+
 /*
 display: flex; organiza os elementos de lado-a-lado
 
@@ -115,7 +125,9 @@ ao inserir none, essa linha de borda é excluída
 box-sizing: border-box; os limites dos elementos filhos coincidem com os limites dos elementos pais; 
 neste contexto, os limites das divisórias (div) dos inputs coincidirão com os limites da divisória textfield
 
-margin-bottom; margem da parte de baixodo elemento
+margin-bottom; margem da parte de baixo do elemento
+
+text-transform: uppercase; transforma o texto para todas as letras maiúsculas
 
 vw= viewport width
 vh= viewport height
