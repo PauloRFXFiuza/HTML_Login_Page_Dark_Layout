@@ -55,6 +55,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 10px;
 }
 
 .textfield > input{
@@ -68,6 +69,11 @@ body{
     box-shadow: 0 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
+}
+
+.textfield > input{
+    color: #f0ffffde;
+    margin-bottom: 10px; 
 }
 
 /*
@@ -104,6 +110,8 @@ ao inserir none, essa linha de borda é excluída
 
 box-sizing: border-box; os limites dos elementos filhos coincidem com os limites dos elementos pais; 
 neste contexto, os limites das divisórias (div) dos inputs coincidirão com os limites da divisória textfield
+
+margin-bottom; margem da parte de baixodo elemento
 
 vw= viewport width
 vh= viewport height
