@@ -44,6 +44,10 @@ body{
     box-shadow: 0 10px 40px #00000056;
 }
 
+.card-login > h1{
+    color: #00ff88;
+}
+
 /*
 display: flex; organiza os elementos de lado-a-lado
 
