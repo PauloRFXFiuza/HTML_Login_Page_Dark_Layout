@@ -92,6 +92,7 @@ body{
     letter-spacing: 3px;
     color: #2b134b;
     background: #00ff88;
+    cursor: pointer;
 }
 
 /*
@@ -134,6 +135,9 @@ margin-bottom; margem da parte de baixo do elemento
 text-transform: uppercase; transforma o texto para todas as letras maiúsculas
 
 letter-spacing: 4px; significa o quanto cada letra do texto será espaçada entre si
+
+cursor: pointer; significa que muda a setinha padrão do mouse para a mão com o dedo indicado apontando,
+quando se coloca o cursor do mouse no objeto em questão
 
 vw= viewport width
 vh= viewport height
