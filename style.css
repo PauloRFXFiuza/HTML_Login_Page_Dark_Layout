@@ -76,6 +76,10 @@ body{
     margin-bottom: 10px; 
 }
 
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
 /*
 display: flex; organiza os elementos de lado-a-lado
 
