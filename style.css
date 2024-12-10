@@ -66,6 +66,7 @@ body{
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0 10px 40px #00000056;
+    outline: none;
 }
 
 /*
@@ -96,6 +97,9 @@ e representa 1/72 de uma polegada.
 Como funciona a unidade pt?
 1pt = 1/72 polegada
 Em dispositivos com uma densidade padrão de 96dpi (pontos por polegada), 1pt equivale a aproximadamente 1,333px.
+
+outline: none; outline é uma linha de borda, que dá ênfase no objeto ao clicar nele; 
+ao inserir none, essa linha de borda é excluída 
 
 vw= viewport width
 vh= viewport height
